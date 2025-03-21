@@ -1,0 +1,64 @@
+# Archivos de entorno virtual
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Configuración de entorno y dependencias
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de caché y logs
+*.log
+*.out
+*.err
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de prueba o temporales
+*.bak
+*.swp
+*.tmp
+*.~*
+
+# Resultados de ejecución o grandes volúmenes de datos
+*.csv
+*.tsv
+*.json
+*.h5
+*.nii
+*.npy
+*.npz
+*.pkl
+*.db
+*.sqlite3
+
+# Modelos entrenados o checkpoints
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Archivos relacionados con Git
+*.orig
+
+# Archivos de salida de Jupyter Notebook (opcional)
+*.html
+*.md
+
+# Otros
+.DS_Store
+Thumbs.db
